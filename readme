@@ -1,0 +1,18 @@
+class CCharMapings:
+
+This class is responsible for holding the mapping character arrays between the character representation and the internal representation.
+It contains two data members they are:
+BYTE CharMapTable[46];
+		BYTE NoToCharTable[37];
+Its constructor is responsible for filling these 2 arrays.
+*************************************************************************************************
+class CUtilities:
+
+Class's methods:
+1.	ui32Pow and ui64Pow which calculate the power using unsigned integer and unsigned integer 64 bit.
+2.	ConvertStr13ToNo, ConvertStr6ToNo which convert the string value to an equivalent number.
+3.	ConvertNoToStr13, ConvertNoToStr6 which convert the number to its equivalent string characters.
+4.	RemoveUnValidChars which removes any non arabic characters.
+This class is used while translating the Arabic words in a lexicon, identifying the word, and cleaning the input word for processing.
+
+
