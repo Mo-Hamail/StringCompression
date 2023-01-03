@@ -1,3 +1,14 @@
+The main Idea is very simple, is to create a number system out of the language alphabet 
+(in current code, Arabic characters has been mapped and it can be replaced with any latin characters codes).
+So, it can be converted back and forth from Decimal number system (base 10) to Arabic number system (base 37)
+and incase of English it will be a number system with base 27.
+
+The benefits are:
+1- Less memory foot print, where a string with 8 characters long can be stored in 2 to 4 bytes and a string with
+   with up to 12 characters long can be stored in 8 bytes.
+   
+2- Speed, it is faster in string processing and comparison (comparing numbers vs strings).
+*************************************************************************************************
 class CCharMapings:
 
 This class is responsible for holding the mapping character arrays between the character representation and the internal representation.
